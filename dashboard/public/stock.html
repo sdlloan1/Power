@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stock Videos</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="wrap">
+        <nav class="site-nav">
+          <a href="/">Media library</a>
+          <span class="sep">/</span>
+          <span class="current">Stock videos</span>
+        </nav>
+        <h1>Stock Videos</h1>
+        <p class="subtitle">Search Pixabay's video catalogue and download the original file.</p>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="notice">
+        <strong>Where these come from.</strong>
+        Results are fetched live from Pixabay's official video API under the Pixabay Content Licence —
+        free for commercial use, no attribution required. Shutterstock is not included: its catalogue
+        needs an approved developer API account, separate from a subscription.
+      </section>
+
+      <section class="state-panel" id="setup-panel" hidden>
+        <h2>Add your Pixabay API key</h2>
+        <p>
+          Pixabay hands out a free key in a couple of minutes. Get one at
+          <a href="https://pixabay.com/api/docs/" target="_blank" rel="noreferrer">pixabay.com/api/docs</a>,
+          then add it here as the secret named <code>PIXABAY_API_KEY</code> — the value is stored encrypted
+          and never shown in chat or in this page.
+        </p>
+      </section>
+
+      <form class="stock-search" id="search-form">
+        <input
+          id="query"
+          class="search"
+          type="search"
+          placeholder="Search stock videos — e.g. sunset, city timelapse, ocean waves"
+          autocomplete="off"
+          aria-label="Search stock videos"
+        />
+        <button class="primary" type="submit">Search</button>
+      </form>
+
+      <p class="result-line" id="stock-result"></p>
+      <div class="grid" id="stock-grid"></div>
+      <div class="empty" id="stock-empty" hidden>No videos matched that search.</div>
+
+      <div class="pager" id="pager" hidden>
+        <button class="more" type="button" id="prev-page">Previous</button>
+        <span class="page-label" id="page-label"></span>
+        <button class="more" type="button" id="next-page">Next</button>
+      </div>
+    </main>
+
+    <script src="/stock.js"></script>
+  </body>
+</html>

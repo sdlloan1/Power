@@ -3,6 +3,7 @@
 const http = require('node:http');
 const fs = require('node:fs');
 const path = require('node:path');
+const stock = require('./stock');
 
 const ROOT = path.resolve(process.env.MEDIA_ROOT || path.join(__dirname, '..'));
 const PORT = Number(process.env.PORT || 3000);
@@ -220,7 +221,15 @@ const server = http.createServer((req, res) => {
   if (pathname === '/') return servePublic(res, 'index.html');
   if (pathname === '/app.js') return servePublic(res, 'app.js');
   if (pathname === '/styles.css') return servePublic(res, 'styles.css');
+  if (pathname === '/stock') return servePublic(res, 'stock.html');
+  if (pathname === '/stock.js') return servePublic(res, 'stock.js');
   if (pathname === '/api/media') return handleMediaQuery(url, res);
+  if (pathname.startsWith('/api/stock/')) {
+    stock.handle(req, res, pathname, url).catch(() => {
+      if (!res.headersSent) res.writeHead(500).end();
+    });
+    return;
+  }
 
   if (pathname.startsWith('/media/') || pathname.startsWith('/download/')) {
     const attachment = pathname.startsWith('/download/');
