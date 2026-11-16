@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="true" min="0" max="200">
+        <parameter_name>IDS_Vi_Param_Detail_Name</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>0.065</range>
+        <offset>0.015</offset>
+        <value>0.04</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="10" max="35">
+        <parameter_name>IDS_Vi_Param_ColorCount_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>25</range>
+        <offset>10</offset>
+        <value>15</value>
+    </effect_parameter>
+</paramererList>

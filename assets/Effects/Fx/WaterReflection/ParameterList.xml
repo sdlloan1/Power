@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="true" min="0" max="200">
+		<parameter_name>IDS_Vi_Param_WaterReflectionVMirrorCenter_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>mirrorCenter</glsl_name>
+		<glsl_type>uniform</glsl_type>
+		<range>1.0</range>
+		<offset>0</offset>
+		<value>0</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="1" max="40">
+		<parameter_name>IDS_Vi_Param_WaterReflectionWaveDistance_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>4</data_type>
+		<glsl_name>wavelet</glsl_name>
+		<glsl_type>uniform</glsl_type>
+		<range>40</range>
+		<offset>1</offset>
+		<value>20</value>
+	</effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="200">
+        <parameter_name>IDS_Vi_Param_WaterReflectionSpeed_Name</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>speed</glsl_name>
+        <glsl_type>uniform</glsl_type>
+        <range>1</range>
+        <offset>0</offset>
+        <value>0.5</value>
+    </effect_parameter>
+	<effect_parameter adjustable="true" min="1" max="10">
+		<parameter_name>IDS_Vi_Param_WaterReflectionWaveInterval_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>4</data_type>
+		<glsl_name>waveInterval</glsl_name>
+		<glsl_type>uniform</glsl_type>
+		<range>10</range>
+		<offset>1</offset>
+		<value>2</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="-10" max="10">
+		<parameter_name>IDS_Vi_Param_WaterReflectionWaveBrightness_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>4</data_type>
+		<glsl_name>waveBrightness</glsl_name>
+		<glsl_type>uniform</glsl_type>
+		<range>20</range>
+		<offset>-10</offset>
+		<value>2</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true">
+		<parameter_name>IDS_Vi_Param_WaterReflectionInverse_Name</parameter_name>
+		<parameter_type>BOOLEAN</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>inverse</glsl_name>
+		<glsl_type>uniform</glsl_type>
+		<value>false</value>
+	</effect_parameter>
+</paramererList>

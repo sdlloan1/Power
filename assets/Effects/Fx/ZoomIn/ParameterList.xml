@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="true" min="0" max="200" link_parameter="IDS_Vi_Param_RatioH_Name" is_link="true">
+		<parameter_name>IDS_Vi_Param_RatioW_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>2</range>
+		<offset>0</offset>
+		<value>1.71</value>
+	</effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="200" link_parameter="IDS_Vi_Param_RatioW_Name" is_link="true">
+		<parameter_name>IDS_Vi_Param_RatioH_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>2</range>
+		<offset>0</offset>
+		<value>1.71</value>
+	</effect_parameter>
+</paramererList>

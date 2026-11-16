@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+	<effect_parameter adjustable="true" min="0" max="100">
+		<parameter_name>MaskType</parameter_name>
+		<parameter_type>SELECTION</parameter_type>
+		<data_type>3</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<value>0</value>
+		<selection>Linear</selection>
+		<selection>Parallel</selection>
+		<selection>Box</selection>
+		<selection>Circle</selection>
+		<selection>Image</selection>
+	</effect_parameter>
+ 	<effect_parameter adjustable="true" min="0" max="100">
+		<parameter_name>CenterPosition</parameter_name>
+		<parameter_type>POSITION</parameter_type>
+		<data_type>7</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<x_value>0.5</x_value>
+		<y_value>0.5</y_value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="100">
+		<parameter_name>SizeX</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>1</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>1.0</range>
+		<offset>0</offset>
+		<value>0.5</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="100">
+		<parameter_name>SizeY</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>1</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>1.0</range>
+		<offset>0</offset>
+		<value>0.5</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="100">
+		<parameter_name>Rotation</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>1</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>360.0</range>
+		<offset>0</offset>
+		<value>0.0</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="100">
+		<parameter_name>FeatherRange</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>1</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>1.0</range>
+		<offset>0</offset>
+		<value>0.0</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="100">
+		<parameter_name>InverseMask</parameter_name>
+		<parameter_type>BOOLEAN</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<value>false</value>
+	</effect_parameter>
+	<effect_parameter adjustable="false">
+		<parameter_name>MaskMode</parameter_name>
+		<parameter_type>INT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>1</range>
+		<offset>0</offset>
+		<value>1</value>
+	</effect_parameter>
+</paramererList>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="true" min="1" max="30">
+        <parameter_name>IDS_Vi_Param_Degree_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>29</range>
+        <offset>1</offset>
+        <value>15</value>
+    </effect_parameter>
+    <effect_parameter>
+        <parameter_name>IDS_Vi_Param_Mask_Name</parameter_name>
+        <parameter_type>BOUNDINGBOX</parameter_type>
+        <data_type>13</data_type>
+        <glsl_name>fBoundingBox</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <bottom_value>1.0</bottom_value>
+        <right_value>1.0</right_value>
+        <top_value>0</top_value>
+        <left_value>0</left_value>
+    </effect_parameter>
+    <effect_parameter>
+        <parameter_name>IDS_Vi_Param_MaskType_Name;box;circle</parameter_name>
+        <parameter_type>SELECTION</parameter_type>
+        <data_type>3</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <value>0</value>
+        <selection>Box</selection>
+        <selection>Circle</selection>
+    </effect_parameter>
+    <effect_parameter>
+        <parameter_name>IDS_Vi_Param_Depth_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>200</range>
+        <offset>0</offset>
+        <value>0</value>
+    </effect_parameter>
+    <effect_parameter>
+        <parameter_name>IDS_Vi_Param_InverseEffectArea_Name</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>fInverse</glsl_name>
+        <glsl_type>uniform</glsl_type>
+        <range>1</range>
+        <offset>0</offset>
+        <value>0</value>
+    </effect_parameter>
+</paramererList>

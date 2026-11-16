@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+	<effect_parameter adjustable="true" min="0" max="100">
+		<parameter_name>IDS_Vi_Param_Degree_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>1.0</range>
+		<offset>0.0</offset>
+		<value>0.5</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true">
+		<parameter_name>IDS_Vi_Param_Mask_Name</parameter_name>
+		<parameter_type>BOUNDINGBOX</parameter_type>
+		<data_type>13</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<left_value>0.0</left_value>
+		<top_value>0.0</top_value>
+		<right_value>1.0</right_value>
+		<bottom_value>1.0</bottom_value>
+	</effect_parameter>
+	<effect_parameter adjustable="true">
+		<parameter_name>IDS_Vi_Param_MaskType_Name</parameter_name>
+		<parameter_type>SELECTION</parameter_type>
+		<data_type>3</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<value>1</value>
+		<selection>Rectangle</selection>
+		<selection>Ellipse</selection>
+		<selection>RoundedRectangle</selection>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="100">
+		<parameter_name>IDS_Vi_Param_MaskRotate_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>1</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>360.0</range>
+		<offset>0.0</offset>
+		<value>0.0</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="100">
+		<parameter_name>IDS_Vi_Param_Depth_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>0.4</range>
+		<offset>0</offset>
+		<value>0.24</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true">
+		<parameter_name>IDS_Vi_Param_InverseEffectArea_Name</parameter_name>
+		<parameter_type>BOOLEAN</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<value>false</value>
+	</effect_parameter>
+</paramererList>

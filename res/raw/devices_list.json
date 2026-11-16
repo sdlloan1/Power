@@ -1,0 +1,901 @@
+[
+  {
+    "board": "|aio_ap|G30|",
+    "hardware": "mt6752",
+    "brand": "|Lenovo|Haier|",
+    "capability": {
+      "pv": false
+    }
+  },
+
+  {
+    "brand": "iRULU",
+    "manufacturer": "Allwinner*",
+    "capability": {
+      "m32": true
+    }
+  },
+
+  {
+    "model": "|SM-N900*|SM-G355*|SM-G360*|SM-G361*|SM-G530*|SM-T231*|SM-T235*|SM-T530*|SM-T561*|GT-I930*|GT-I950*|GT-P5200*|GT-P5210*|GT-P5220*|",
+    "brand": "samsung",
+    "manufacturer": "samsung",
+    "capability": {
+      "sw": false
+    }
+  },
+  {
+    "hardware": "|sc8830|mofd_v*|",
+    "brand": "|samsung|Lenovo|MyPhoneMY27|asus|",
+    "manufacturer": "|samsung|LENOVO|MyPhoneMY27|asus|",
+    "capability": {
+      "sw": true
+    }
+  },
+
+
+  {
+    "board": "|MSM8939|MSM8952|MSM8953|MSM8974*|APQ8084|MSM899*|universal7420|universal8890|",
+    "hardware": "|qcom|htc_hima|samsungexynos7420|samsungexynos8890|",
+    "capability": {
+      "pv": true
+    }
+  },
+  {
+    "board": "|MSM8939|MSM8952|MSM8953|MSM8974*|APQ8084|MSM899*|universal7420|universal8890|",
+    "brand": "|lge|htc|Huawei|motorola|samsung|Sony|Xiaomi|",
+    "capability": {
+      "pv": true
+    }
+  },
+  {
+    "board": "|GRA-UL00|VNS-L21|",
+    "brand": "|Huawei|",
+    "hardware": "hi3635",
+    "capability": {
+      "pv": true
+    }
+  },
+  {
+    "board": "|MSM8939|MSM8952|MSM8953|MSM8974*|APQ8084|MSM899*|universal7420|universal8890|",
+    "manufacturer": "|asus|lge|htc|Huawei|motorola|samsung|Sony|Xiaomi|",
+    "capability": {
+      "pv": true
+    }
+  },
+  {
+    "model": "|Nexus 9|MI PAD|Tablet K1|SHIELD Tablet*|",
+    "brand": "|google|Xiaomi|nvidia|",
+    "capability": {
+      "pv": true
+    }
+  },
+  {
+    "brand": "|google|samsung|Sony|asus|Xiaomi|Meizu|Huawei|htc|lge|",
+    "cpuinfo": "|MSM8939|MSM8952|MSM8953|MSM8974|MSM9876|APQ8084|MSM8992|MSM8994|MSM8996|Z3560|Z3580|Z3590|MT6755|MT6795|MT6797|",
+    "capability": {
+      "pv": true
+    }
+  },
+  {
+    "board": "|MSM8974*|APQ8084|MSM899*|moorefield|mt6755|mt6795|mt6797|",
+    "cpuinfo": "|MSM8974|APQ8084|MSM8992|MSM8994|MSM8996|Z3560|Z3580|Z3590|MT6755|MT6795|MT6797|",
+    "capability": {
+      "pv": true
+    }
+  },
+  {
+    "hardware": "|qcom|mofd_v*|mt6755|mt6795|mt6797|hi3650|",
+    "cpuinfo": "|MSM8974|MSM9876|APQ8084|MSM8992|MSM8994|MSM8996|Z3560|Z3580|Z3590|MT6755|MT6795|MT6797|Kirin950|Kirin955|",
+    "capability": {
+      "pv": true
+    }
+  },
+  {
+    "board": "F02H",
+    "brand": "DOCOMO",
+    "device": "F02H",
+    "model": "F-02H",
+    "capability": {
+      "pv": true
+    }
+  },
+  {
+    "board": "sdm845",
+    "hardware": "judypn",
+    "device": "judypn",
+    "model": "LM-V405",
+    "capability": {
+      "pv": true
+    }
+  },
+  {
+    "manufacturer": "asus",
+    "board": "EeePad",
+    "hardware" : "mofd_v1",
+    "capability": {
+      "pv": true
+    }
+  },
+
+  {
+    "brand": "|google|samsung|Sony|asus|Xiaomi|Meizu|Huawei|htc|lge|",
+    "cpuinfo": "|MSM8996|",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": true
+    }
+  },
+  {
+    "hardware": "|hi3650|",
+    "manufacturer": "HUAWEI",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": true,
+      "pv": true,
+      "pvFHDFHD": 2,
+      "pvUHDFHD": 2
+    }
+  },
+  {
+    "board": "|universal8890|",
+    "brand": "|samsung|",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": true
+    }
+  },
+  {
+    "board": "eve",
+    "model": "Google Pixelbook",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": true,
+      "canUF60": false,
+      "canFF60": false,
+      "pv": true,
+      "pvFHDFHD": 3,
+      "pvUHDFHD": 3
+    }
+  },
+  {
+    "board": "atlas",
+    "model": "Google Pixelbook Go",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": false,
+      "canUF60": false,
+      "canFF60": false,
+      "pv": true,
+      "pvFHDFHD": 2,
+      "pvUHDFHD": 2
+    }
+  },
+  {
+    "device": "|blueline|crosshatch|flame|coral|sunfish|",
+    "model": "|Pixel 3|Pixel 3 XL|Pixel 4|Pixel 4 XL|Pixel 4a|",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": true,
+      "canFF60": true,
+      "canUF60": false,
+      "pv": true,
+      "pvFHDFHD": 3,
+      "pvUHDFHD": 3,
+      "m16": true
+    }
+  },
+  {
+    "device": "redfin",
+    "model": "Pixel 5",
+    "capability": {
+      "m16": true
+    }
+  },
+  {
+    "board": "|bre2pdugl_00709|",
+    "hardware": "|mt6765|",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": false,
+      "canFF60": true,
+      "canUF60": false,
+      "pv": true,
+      "pvFHDFHD": 3,
+      "pvUHDFHD": 3,
+      "m16": true
+    }
+  },
+  {
+  	"hardware": "|qcom|samsungexynos9810|exynos9820|judypn|",
+  	"board": "|sdm845|universal9810|universal9820|msmnile|",
+  	"capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": true,
+      "canUF60": true,
+      "canFF60": true,
+      "pv": true,
+      "pvFHDFHD": 3,
+      "pvUHDFHD": 3
+    }
+  },
+  {
+    "hardware": "qcom",
+    "board": "|sdm835|MSM8998|",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": true,
+      "pv": true,
+      "pvFHDFHD": 3,
+      "pvUHDFHD": 3
+    }
+  },
+  {
+    "hardware": "|qcom|kirin710|bonito|sargo|",
+    "board": "|sdm660|sdm710|msm8953|JKM-L22|bonito|sargo|",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": true,
+      "pv": true
+    }
+  },
+  {
+    "device": "C1905",
+    "model": "C1905",
+    "brand": "Sony",
+    "capability": {
+      "canFH": false,
+      "canFF": false,
+      "canUF": false
+    }
+  },
+  {
+    "device": "|ME302C|",
+    "model": "|ME302C|",
+    "brand": "asus",
+    "capability": {
+      "canFH": false,
+      "canFF": false,
+      "canUF": false,
+      "canFF60": false
+    }
+  },
+  {
+    "board": "|MSM8226|MSM8228|",
+    "hardware": "qcom",
+    "brand": "Xiaomi",
+    "capability": {
+      "canFF": true
+    }
+  },
+  {
+    "device": "victorlte",
+    "model": "SM-G3586V",
+    "brand": "samsung",
+    "capability": {
+      "canFH": true,
+      "canFF": false,
+      "canUF": false
+    }
+  },
+  {
+    "board": "sc7735*",
+    "hardware": "sc8830",
+    "brand": "samsung",
+    "capability": {
+      "canFH": true,
+      "canFF": false,
+      "canUF": false,
+      "m16": true
+    }
+  },
+  {
+    "board": "MSM8974*",
+    "hardware": "qcom",
+    "brand": "samsung",
+    "capability": {
+      "canUF": false
+    }
+  },
+  {
+    "board": "|universal3470|universal7580|",
+    "hardware": "|universal3470|samsungexynos7580|",
+    "brand": "samsung",
+    "capability": {
+      "canFH": true,
+      "canFF": false,
+      "canUF": false
+    }
+  },
+  {
+    "board": "|universal5410|universal5420|universal5433|universal7420|",
+    "hardware": "|universal5410|universal5420|universal5433|samsungexynos7420|",
+    "brand": "samsung",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": false
+    }
+  },
+  {
+    "board": "universal*",
+    "brand": "samsung",
+    "capability": {
+      "m16": true
+    }
+  },
+  {
+    "board": "universal5433",
+    "hardware": "universal5433",
+    "brand": "samsung",
+    "capability": {
+      "pv": true,
+      "pvFHDFHD": 2,
+      "pvUHDFHD": 2
+    }
+  },
+  {
+    "board": "|universal7880|universal7885|exynos7904|",
+    "hardware": "|samsungexynos7880|samsungexynos7885|exynos7885|exynos7904|",
+    "brand": "samsung",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "pv": true,
+      "pvFHDFHD": 2,
+      "pvUHDFHD": 2
+    }
+  },
+  {
+    "board": "MSM8976",
+    "hardware": "qcom",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "pv": true,
+      "pvFHDFHD": 2,
+      "pvUHDFHD": 2
+    }
+  },
+  {
+    "board": "MSM8996",
+    "hardware": "qcom",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "pv": true,
+      "pvFHDFHD": 2,
+      "pvUHDFHD": 2
+    }
+  },
+  {
+    "board": "taimen",
+    "brand": "google",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "pv": true,
+      "pvFHDFHD": 2,
+      "pvUHDFHD": 2
+    }
+  },
+  {
+    "board": "universal8910",
+    "hardware": "samsungexynos8910",
+    "brand": "samsung",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "pv": true,
+      "pvFHDFHD": 3,
+      "pvUHDFHD": 3
+    }
+  },
+  {
+    "board": "universal7870",
+    "brand": "samsung",
+    "capability": {
+      "pv": true,
+      "pvFHDFHD": 2,
+      "pvUHDFHD": 2
+    }
+  },
+  {
+    "board": "s53_aap_chts",
+    "hardware": "mt6592",
+    "manufacturer": "acer",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": false
+    }
+  },
+  {
+    "board": "|APQ8064|APQ8084|s5000_row_wifi|",
+    "hardware": "|qcom|m7|mt6592|mt8389|",
+    "manufacturer": "|samsung|htc|acer|Lenovo|",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": false
+    }
+  },
+  {
+    "device": "ferrari",
+    "model": "Mi 4i",
+    "brand": "Xiaomi",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": false
+    }
+  },
+  {
+    "device": "|mocha|pisces|",
+    "model": "|MI PAD|MI 3|",
+    "brand": "Xiaomi",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true
+    }
+  },
+  {
+    "device": "|mocha||",
+    "model": "|MI PAD|",
+    "brand": "Xiaomi",
+    "capability": {
+      "canUU": true
+    }
+  },
+  {
+    "device": "Z00A*",
+    "model": "ASUS_Z00AD",
+    "brand": "asus",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canFF60": false
+    }
+  },
+  {
+    "board": "clovertrail",
+    "hardware": "redhookbay",
+    "brand": "asus",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": false,
+      "canFF60": false
+    }
+  },
+  {
+    "device": "|htc_a51dtul|dlxub1|",
+    "model": "|HTC_D820u|HTC Butterfly|",
+    "brand": "htc",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": false
+    }
+  },
+  {
+    "board": "BalongV8R1SFT",
+    "hardware": "hi6210sft",
+    "manufacturer": "HUAWEI",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": false,
+      "m16": true,
+      "pv": false
+    }
+  },
+  {
+    "hardware": "hi6250",
+    "manufacturer": "HUAWEI",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": false,
+      "pv": true
+    }
+  },
+  {
+    "hardware":"|kirin970|kirin980|mt6757|",
+    "manufacturer":"|HUAWEI|samsung|",
+    "board":"|ALP|EVR|MT6757|",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": true,
+      "pv": true
+    }
+  },
+  {
+    "board": "|MSM8226|MSM8228|",
+    "hardware": "qcom",
+    "capability": {
+      "canFH": true,
+      "canFF": false,
+      "canUF": false
+    }
+  },
+  {
+    "board": "|MSM8916|MSM8960|",
+    "hardware": "qcom",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": false
+    }
+  },
+  {
+    "board": "|MSM8974*|",
+    "hardware": "|qcom|g3|blw|bacon|htc_hima|",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": false
+    }
+  },
+  {
+    "board": "|MSM899*|",
+    "hardware": "|qcom|g3|blw|bacon|htc_hima|",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true
+    }
+  },
+  {
+    "board": "|tuna|grouper|flo|",
+    "hardware": "|tuna|grouper|flo|",
+    "brand": "google",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": false
+    }
+  },
+  {
+    "board": "|manta|shamu|hammerhead|flounder|bullhead|angler|sailfish|marlin|",
+    "hardware": "|manta|shamu|hammerhead|flounder|bullhead|angler|sailfish|marlin|",
+    "brand": "google",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true
+    }
+  },
+  {
+    "hardware": "|flounder|sailfish|marlin|",
+    "board": "|flounder|sailfish|marlin|",
+    "brand": "google",
+    "capability": {
+      "canUU": true
+    }
+  },
+  {
+    "device": "|coral_cheets|reks_cheets|octopus_cheets|",
+    "model": "|coral|Lenovo Intel Braswell Chromebook|octopus|",
+    "capability": {
+      "canUU": false,
+      "canUF": true,
+      "canFF": true,
+      "canFH": true,
+      "canUF60": false,
+      "canFF60": true,
+      "pv": true
+    }
+  },
+  {
+    "device": "cave_cheets",
+    "model": "ASUS Chromebook Flip C302",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": true,
+      "canUF60": false,
+      "canFF60": false,
+      "pv": true
+    }
+  },
+  {
+    "device": "cyan_cheets",
+    "board": "cyan",
+    "hardware": "cheets",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": true,
+      "canUF60": false,
+      "canFF60": true,
+      "pv": true
+    }
+  },
+  {
+    "device": "elm_cheets",
+    "board": "elm",
+    "hardware": "cheets",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": false,
+      "canUF60": false,
+      "canFF60": false,
+      "pv": true
+    }
+  },
+  {
+    "device": "banon_cheets",
+    "board": "banon",
+    "hardware": "cheets",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": true,
+      "canUF60": false,
+      "canFF60": false
+    }
+  },
+  {
+    "device": "nocturne_cheets",
+    "board": "nocturne",
+    "hardware": "cheets",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": false,
+      "can8U": false,
+      "canFF60": true,
+      "pv": true,
+      "pvFHDFHD": 3,
+      "pvUHDFHD": 3
+    }
+  },
+  {
+    "board": "nautilus",
+    "hardware": "cheets",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": false,
+      "canUU": false,
+      "canUF60": false,
+      "canFF60": false,
+      "pv": false
+    }
+  },
+  {
+    "brand": "samsung",
+    "hardware": "qcom",
+    "model": "|SM-G9810|SM-G9860|SM-G9880|SM-T970|SM-S9110",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": true,
+      "can8U": true,
+      "canUF60": true,
+      "canFF60": true,
+      "pv": true,
+      "pvFHDFHD": 3,
+      "pvUHDFHD": 3
+    }
+  },
+  {
+    "device": "wisdomwifi",
+    "model": "SM-P200",
+    "hardware": "exynos7904",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": true,
+      "can8U": false,
+      "canUF60": true,
+      "canFF60": true,
+      "pv": true,
+      "pvFHDFHD": 3,
+      "pvUHDFHD": 3
+    }
+  },
+  {
+    "device": "nami_cheets",
+    "model": "nami",
+    "hardware": "cheets",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": true,
+      "can8U": false,
+      "canUF60": true,
+      "canFF60": true,
+      "pv": true,
+      "pvFHDFHD": 3,
+      "pvUHDFHD": 3
+    }
+  },
+  {
+    "device": "HWHRY-HF|HWHRY-H",
+    "model": "HRY-LX1T|HRY-LX1",
+    "hardware": "kirin710",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": false,
+      "can8U": false,
+      "canUF60": true,
+      "canFF60": true,
+      "pv": true,
+      "pvFHDFHD": 3,
+      "pvUHDFHD": 3
+    }
+  },
+  {
+    "device": "HWYAL|HWELS",
+    "model": "YAL-L41|ELS-NX9",
+    "hardware": "kirin980|kirin990",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": true,
+      "can8U": false,
+      "canUF60": true,
+      "canFF60": true,
+      "pv": true,
+      "pvFHDFHD": 3,
+      "pvUHDFHD": 3
+    }
+  },
+  {
+    "device": "hatch_cheets",
+    "model": "hatch",
+    "hardware": "cheets|bertha",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": true,
+      "can8U": false,
+      "canUF60": false,
+      "canFF60": true,
+      "pv": true,
+      "pvFHDFHD": 3,
+      "pvUHDFHD": 3
+    }
+  },
+  {
+    "device": "HWVKY|RE54ABL1|a52sxq",
+    "model": "VKY-L29|RMX3363|SM-A528B",
+    "hardware": "hi3660|qcom",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": true,
+      "can8U": false,
+      "canUF60": false,
+      "canFF60": true,
+      "pv": true,
+      "pvFHDFHD": 3,
+      "pvUHDFHD": 3
+    }
+  },
+  {
+    "device": "sunny|zork_cheets|volteer_cheets|nami_cheets|dedede_cheets",
+    "model": "M2101K7AG|zork|volteer|nami|dedede",
+    "hardware": "qcom|cheets|bertha",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "canUU": false,
+      "can8U": false,
+      "canUF60": false,
+      "canFF60": false,
+      "pv": true,
+      "pvFHDFHD": 2,
+      "pvUHDFHD": 2
+    }
+  },
+  {
+    "device": "evergreen|XQ-CC44",
+    "model": "21091116AG|XQ-CC44",
+    "hardware": "mt6833|qcom",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": false,
+      "canUU": false,
+      "can8U": false,
+      "canUF60": false,
+      "canFF60": true,
+      "pv": true,
+      "pvFHDFHD": 3,
+      "pvUHDFHD": 3
+    }
+  },
+  {
+    "brand": "samsung",
+    "hardware": "qcom",
+    "model": "SM-S9010",
+    "device": "r0q",
+    "capability": {
+      "m16": true,
+      "addTxImgP": true
+    }
+  },
+  {
+    "brand": "Redmi",
+    "hardware": "qcom",
+    "model": "2201116SI",
+    "device": "peux",
+    "capability": {
+      "addTxImgP": true
+    }
+  },
+  {
+    "brand": "samsung",
+    "hardware": "qcom",
+    "model": "SM-G9910|SM-G991U1|SM-S9060|SM-S908U|SM-G991U|SM-G998W|SM-X800",
+    "device": "o1q|g0q|b0q|p3q|r0q|gts8pwifi",
+    "capability": {
+      "m16": true
+    }
+  },
+  {
+    "device": "",
+    "model": "",
+    "product": "",
+    "brand": "",
+    "manufacturer": "",
+    "board": "",
+    "hardware": "",
+    "cpuinfo": "",
+    "capability": {
+      "canFH": true,
+      "canFF": true,
+      "canUF": true,
+      "m16": false,
+      "m32": false
+    }
+  }
+]

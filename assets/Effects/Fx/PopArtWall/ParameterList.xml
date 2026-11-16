@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="true" min="1" max="16" link_parameter="IDS_Vi_Param_Degree_Name" is_link="false">
+        <parameter_name>IDS_Vi_Param_Seed_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>15</range>
+        <offset>1</offset>
+        <value>4</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="255" link_parameter="IDS_Vi_Param_Seed_Name" is_link="false">
+        <parameter_name>IDS_Vi_Param_Degree_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>255</range>
+        <offset>0</offset>
+        <value>128</value>
+    </effect_parameter>
+</paramererList>

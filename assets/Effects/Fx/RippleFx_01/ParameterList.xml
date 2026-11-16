@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>IDS_Vi_Param_Frequency_Name</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>0.8</range>
+        <offset>0.2</offset>
+        <value>0.6</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>IDS_Vi_Param_Strength_Name</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>100</range>
+        <offset>0</offset>
+        <value>30</value>
+    </effect_parameter>
+<!--    <effect_parameter adjustable="true" min="0" max="100">-->
+<!--        <parameter_name>IDS_Vi_Param_Brightness_Name</parameter_name>-->
+<!--        <parameter_type>FLOAT</parameter_type>-->
+<!--        <data_type>8</data_type>-->
+<!--        <glsl_name>NONE</glsl_name>-->
+<!--        <glsl_type>NONE</glsl_type>-->
+<!--        <range>100</range>-->
+<!--        <offset>0</offset>-->
+<!--        <value>50</value>-->
+<!--    </effect_parameter>-->
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>IDS_Vi_Param_WaveLength_Name</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>1</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>0.45</range>
+        <offset>0.05</offset>
+        <value>0.275</value>
+    </effect_parameter>
+    <effect_parameter adjustable="false" min="0" max="100">
+        <parameter_name>IDS_Vi_Param_Speed_Name</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>1</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>3.8</range>
+        <offset>0.2</offset>
+        <value>2.1</value>
+    </effect_parameter>
+    <effect_parameter adjustable="false">
+        <parameter_name>IDS_Vi_Param_Position_Name</parameter_name>
+        <parameter_type>POSITION</parameter_type>
+        <data_type>7</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <x_value>0.5</x_value>
+        <y_value>0.5</y_value>
+    </effect_parameter>
+</paramererList>

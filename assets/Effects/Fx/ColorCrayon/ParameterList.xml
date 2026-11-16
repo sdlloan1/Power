@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+	<effect_parameter>
+		<parameter_name>IDS_Vi_Param_TextureBackground_Name</parameter_name>
+		<parameter_type>SELECTION</parameter_type>
+		<data_type>3</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<value>0</value>
+		<selection>BackgroundTexture1</selection>
+		<selection>BackgroundTexture2</selection>
+		<selection>BackgroundTexture3</selection>
+		<selection>BackgroundTexture4</selection>
+	</effect_parameter>
+</paramererList>

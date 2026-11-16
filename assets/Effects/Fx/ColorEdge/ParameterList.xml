@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="true" min="1" max="7">
+		<parameter_name>IDS_Vi_Param_Degree_Name</parameter_name>
+		<parameter_type>INT</parameter_type>
+		<data_type>1</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>6</range>
+		<offset>1</offset>
+		<value>3</value>
+	</effect_parameter>
+</paramererList>

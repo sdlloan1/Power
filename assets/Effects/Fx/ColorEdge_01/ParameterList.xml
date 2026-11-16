@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="true" min="0" max="100">
+		<parameter_name>IDS_Vi_Param_Frequency_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>1.8</range>
+		<offset>0.2</offset>
+		<value>1.46</value>
+	</effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+		<parameter_name>IDS_Vi_Param_Strength_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>100</range>
+		<offset>0</offset>
+		<value>75</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="200">
+		<parameter_name>IDS_Vi_Param_OffsetX_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>0.4</range>
+		<offset>-0.2</offset>
+		<value>0.05</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="200">
+		<parameter_name>IDS_Vi_Param_OffsetY_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>0.4</range>
+		<offset>-0.2</offset>
+		<value>-0.01</value>
+	</effect_parameter>
+	<effect_parameter adjustable="false" min="0" max="100">
+		<parameter_name>Threshold</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>100</range>
+		<offset>0</offset>
+		<value>60</value>
+	</effect_parameter>
+	<effect_parameter adjustable="false" min="2" max="10">
+		<parameter_name>Radius</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>8</range>
+		<offset>2</offset>
+		<value>3</value>
+	</effect_parameter>
+</paramererList>

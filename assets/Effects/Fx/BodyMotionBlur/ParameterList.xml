@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+	<effect_parameter adjustable="true" min="0" max="100">
+		<parameter_name>IDS_Vi_Param_Distance_Name</parameter_name>
+		<parameter_type>INT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>400</range>
+		<offset>0</offset>
+		<value>80</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="100" >
+		<parameter_name>IDS_Vi_Param_Opacity_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>100</range>
+		<offset>0</offset>
+		<value>30</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="360">
+		<parameter_name>IDS_Vi_Param_Direction_Name</parameter_name>
+		<parameter_type>INT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>360</range>
+		<offset>0</offset>
+		<value>0</value>
+	</effect_parameter>
+</paramererList>

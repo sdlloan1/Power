@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="true" min="0" max="5">
+        <parameter_name>IDS_Vi_Param_MaskType_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>5</range>
+        <offset>0</offset>
+        <value>0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="1">
+        <parameter_name>IDS_Vi_Param_StrokeType_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>1</range>
+        <offset>0</offset>
+        <value>0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true">
+        <parameter_name>IDS_Vi_Param_MagnifierCenter_Name</parameter_name>
+        <parameter_type>POSITION</parameter_type>
+        <data_type>7</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <x_value>0.35</x_value>
+        <y_value>0.75</y_value>
+    </effect_parameter>
+    <effect_parameter adjustable="false">
+        <parameter_name>IDS_Vi_Param_DisplayCenter_Name</parameter_name>
+        <parameter_type>POSITION</parameter_type>
+        <data_type>7</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <x_value>0.8</x_value>
+        <y_value>0.2</y_value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100" >
+        <parameter_name>IDS_Vi_Param_Magnify_Name</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>100.0</range>
+        <offset>0.0</offset>
+        <value>20.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100" >
+        <parameter_name>IDS_Vi_Param_Width_Name</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>100.0</range>
+        <offset>0.0</offset>
+        <value>25.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100" >
+        <parameter_name>IDS_Vi_Param_Height_Name</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>100.0</range>
+        <offset>0.0</offset>
+        <value>25.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="30" >
+        <parameter_name>IDS_Vi_Param_FrameWidth_Name</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>30.0</range>
+        <offset>0.0</offset>
+        <value>5.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true">
+        <parameter_name>IDS_Vi_Param_FrameColor_Name</parameter_name>
+        <parameter_type>COLOR</parameter_type>
+        <data_type>7</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <alpha_value>255</alpha_value>
+        <red_value>125</red_value>
+        <green_value>125</green_value>
+        <blue_value>125</blue_value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100" >
+        <parameter_name>IDS_Vi_Param_FrameOpacity_Name</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>100.0</range>
+        <offset>0.0</offset>
+        <value>75.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true">
+        <parameter_name>IDS_Vi_Param_ShadowColor_Name</parameter_name>
+        <parameter_type>COLOR</parameter_type>
+        <data_type>7</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <alpha_value>255</alpha_value>
+        <red_value>0</red_value>
+        <green_value>0</green_value>
+        <blue_value>0</blue_value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="200" >
+        <parameter_name>IDS_Vi_Param_ShadowDistance_Name</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>200.0</range>
+        <offset>0.0</offset>
+        <value>20.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="50" >
+        <parameter_name>IDS_Vi_Param_ShadowBlurRadius_Name</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>50.0</range>
+        <offset>0.0</offset>
+        <value>20.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="360" >
+        <parameter_name>IDS_Vi_Param_ShadowDirection_Name</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>360.0</range>
+        <offset>0.0</offset>
+        <value>45.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100" >
+        <parameter_name>IDS_Vi_Param_ShadowOpacity_Name</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>100.0</range>
+        <offset>0.0</offset>
+        <value>75.0</value>
+    </effect_parameter>
+</paramererList>

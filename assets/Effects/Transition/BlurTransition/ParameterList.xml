@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter>
+		<parameter_name>IDS_Tr_Param_Percentage_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>fProgress</glsl_name>
+		<glsl_type>uniform</glsl_type>
+		<range>1</range>
+		<offset>0</offset>
+		<value>0</value>
+		<progress_mode>LINEAR</progress_mode>
+		<progress_cycle>1</progress_cycle>
+	</effect_parameter>
+    <effect_parameter>
+		<parameter_name>IDS_Tr_Param_MaxBlurRadius_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>0.1</range>
+		<offset>0</offset>
+		<value>0.1</value>
+	</effect_parameter>
+    <effect_parameter>
+		<parameter_name>IDS_Tr_Param_BlurLevel_Name</parameter_name>
+		<parameter_type>INT</parameter_type>
+		<data_type>1</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>9</range>
+		<offset>1</offset>
+		<value>7</value>
+	</effect_parameter>
+    <effect_parameter>
+		<parameter_name>IDS_Tr_Param_bColor_Name</parameter_name>
+		<parameter_type>INT</parameter_type>
+		<data_type>1</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>16777215</range><!-- 0x00RRGGBB -->
+		<offset>0</offset>
+		<value>0</value>
+	</effect_parameter>
+</paramererList>

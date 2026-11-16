@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<list>
+    <item drawable="thumbnails/Flash_00_out.webp" duration="30" />
+    <item drawable="thumbnails/Flash_01_out.webp" duration="30" />
+    <item drawable="thumbnails/Flash_02_out.webp" duration="30" />
+    <item drawable="thumbnails/Flash_03_out.webp" duration="30" />
+    <item drawable="thumbnails/Flash_04_out.webp" duration="30" />
+    <item drawable="thumbnails/Flash_05_out.webp" duration="30" />
+    <item drawable="thumbnails/Flash_06_out.webp" duration="30" />
+    <item drawable="thumbnails/Flash_07_out.webp" duration="30" />
+    <item drawable="thumbnails/Flash_08_out.webp" duration="30" />
+    <item drawable="thumbnails/Flash_09_out.webp" duration="30" />
+    <item drawable="thumbnails/Flash_10_out.webp" duration="30" />
+    <item drawable="thumbnails/Flash_11_out.webp" duration="30" />
+    <item drawable="thumbnails/Flash_12_out.webp" duration="90" />
+    <item drawable="thumbnails/Flash_13_out.webp" duration="100" />
+    <item drawable="thumbnails/Flash_14_out.webp" duration="1130" />
+</list>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>HueShift_0</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>Saturation_0</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>Luminance_0</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>HueShift_1</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>Saturation_1</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>Luminance_1</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>HueShift_2</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>Saturation_2</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>Luminance_2</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>HueShift_3</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>Saturation_3</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>Luminance_3</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>HueShift_4</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>Saturation_4</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>Luminance_4</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>HueShift_5</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>Saturation_5</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>Luminance_5</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>HueShift_6</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>Saturation_6</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>Luminance_6</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>HueShift_7</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>Saturation_7</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>Luminance_7</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>2.0</range>
+        <offset>-1.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+</paramererList>

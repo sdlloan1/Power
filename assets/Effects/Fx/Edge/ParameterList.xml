@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="true" min="1" max="255">
+        <parameter_name>IDS_Vi_Param_Degree_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>254</range>
+        <offset>1</offset>
+        <value>128</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true">
+        <parameter_name>IDS_Vi_Param_fColor_Name</parameter_name>
+        <parameter_type>COLOR</parameter_type>
+        <data_type>7</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <alpha_value>255</alpha_value>
+        <red_value>255</red_value>
+        <green_value>255</green_value>
+        <blue_value>255</blue_value>
+        <progress_mode>NONE</progress_mode>
+        <progress_cycle>1</progress_cycle>
+    </effect_parameter>
+    <effect_parameter adjustable="true">
+        <parameter_name>IDS_Vi_Param_bColor_Name</parameter_name>
+        <parameter_type>COLOR</parameter_type>
+        <data_type>7</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <alpha_value>255</alpha_value>
+        <red_value>0</red_value>
+        <green_value>0</green_value>
+        <blue_value>0</blue_value>
+        <progress_mode>NONE</progress_mode>
+        <progress_cycle>1</progress_cycle>
+    </effect_parameter>
+</paramererList>

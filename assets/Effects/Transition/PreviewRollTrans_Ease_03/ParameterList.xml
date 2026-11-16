@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter>
+		<parameter_name>IDS_Tr_Param_Percentage_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>fProgress</glsl_name>
+		<glsl_type>uniform</glsl_type>
+		<range>1</range>
+		<offset>0</offset>
+		<value>0</value>
+		<progress_mode>LINEAR</progress_mode>
+		<progress_cycle>1</progress_cycle>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="1">
+		<parameter_name>Direction</parameter_name>
+		<parameter_type>INT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>1</range>
+		<offset>0</offset>
+		<value>0</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="3">
+		<parameter_name>SubDirection</parameter_name>
+		<parameter_type>INT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>3</range>
+		<offset>0</offset>
+		<value>0</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="100">
+		<parameter_name>EyeOffsetX</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>2.0</range>
+		<offset>-1.0</offset>
+		<value>0.0</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="100">
+		<parameter_name>EyeOffsetY</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>2.0</range>
+		<offset>-1.0</offset>
+		<value>0.0</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true">
+		<parameter_name>FrameColor</parameter_name>
+		<parameter_type>COLOR</parameter_type>
+		<data_type>7</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<alpha_value>255</alpha_value>
+		<red_value>0</red_value>
+		<green_value>0</green_value>
+		<blue_value>0</blue_value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="100">
+		<parameter_name>FrameSize</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>0.2</range>
+		<offset>0</offset>
+		<value>0.0</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="4">
+		<parameter_name>Rotate(Pi)</parameter_name>
+		<parameter_type>INT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>4</range>
+		<offset>0</offset>
+		<value>1</value>
+	</effect_parameter>
+</paramererList>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+
+    <effect_parameter>
+		<parameter_name>IDS_Tr_Param_Percentage_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>fProgress</glsl_name>
+		<glsl_type>uniform</glsl_type>
+		<range>1</range>
+		<offset>0</offset>
+		<value>0</value>
+		<progress_mode>LINEAR</progress_mode>
+		<progress_cycle>1</progress_cycle>
+	</effect_parameter>
+
+	<effect_parameter>
+		<parameter_name>IDS_Tr_Param_Src_Opacity</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>1.0</range>
+		<offset>0.0</offset>
+		<value>1.0</value>
+	</effect_parameter>
+
+	<effect_parameter adjustable="true">
+		<parameter_name>IDS_Tr_Param_Blending_Mode</parameter_name>
+		<parameter_type>SELECTION</parameter_type>
+		<data_type>3</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<value>0</value>
+		<selection>normal</selection>
+		<selection>color</selection>
+		<selection>colorburn</selection>
+		<selection>colordodge</selection>
+		<selection>darken</selection>
+		<selection>darkercolor</selection>
+		<selection>difference</selection>
+		<selection>divide</selection>
+		<selection>exclusion</selection>
+		<selection>hardlight</selection>
+		<selection>hardmix</selection>
+		<selection>hue</selection>
+		<selection>lighten</selection>
+		<selection>lightercolor</selection>
+		<selection>linearburn</selection>
+		<selection>lineardodge</selection>
+		<selection>linearlight</selection>
+		<selection>lumamatte</selection>
+		<selection>luminosity</selection>
+		<selection>multiply</selection>
+		<selection>overlay</selection>
+		<selection>pinlight</selection>
+		<selection>saturation</selection>
+		<selection>screen</selection>
+		<selection>softlight</selection>
+		<selection>subtract</selection>
+		<selection>vividlight</selection>
+	</effect_parameter>
+
+</paramererList>

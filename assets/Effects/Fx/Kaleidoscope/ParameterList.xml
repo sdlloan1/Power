@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="true" min="0" max="200">
+		<parameter_name>IDS_Vi_Param_Angle_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>u_angle</glsl_name>
+		<glsl_type>uniform</glsl_type>
+		<range>720</range>
+		<offset>0</offset>
+		<value>360</value>
+	</effect_parameter>
+    <effect_parameter adjustable="true" min="3" max="10">
+		<parameter_name>IDS_Vi_Param_Segment_Name</parameter_name>
+		<parameter_type>INT</parameter_type>
+		<data_type>4</data_type>
+		<glsl_name>u_segment</glsl_name>
+		<glsl_type>uniform</glsl_type>
+		<range>7</range>
+		<offset>3</offset>
+		<value>6</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="200">
+		<parameter_name>IDS_Vi_Param_XOffset_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>u_offsetX</glsl_name>
+		<glsl_type>uniform</glsl_type>
+		<range>200</range>
+		<offset>0</offset>
+		<value>100</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="200">
+		<parameter_name>IDS_Vi_Param_YOffset_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>u_offsetY</glsl_name>
+		<glsl_type>uniform</glsl_type>
+		<range>200</range>
+		<offset>0</offset>
+		<value>100</value>
+	</effect_parameter>
+</paramererList>
