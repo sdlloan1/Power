@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="true">
+		<parameter_name>IDS_Vi_Param_EffectType_Name;Up;Dn;L;R</parameter_name>
+		<parameter_type>SELECTION</parameter_type>
+		<data_type>3</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<value>0</value>
+		<selection>Up</selection>
+		<selection>Down</selection>
+		<selection>Left</selection>
+		<selection>Right</selection>
+	</effect_parameter>
+    <effect_parameter>
+		<parameter_name>IDS_Vi_Param_Angle_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>90</range>
+		<offset>0</offset>
+		<value>30</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true">
+		<parameter_name>IDS_Vi_Param_bColor_Name</parameter_name>
+        <parameter_type>COLOR</parameter_type>
+        <data_type>7</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <alpha_value>255</alpha_value>
+        <red_value>0</red_value>
+        <green_value>0</green_value>
+        <blue_value>0</blue_value>
+        <progress_mode>NONE</progress_mode>
+        <progress_cycle>1</progress_cycle>
+	</effect_parameter>
+</paramererList>

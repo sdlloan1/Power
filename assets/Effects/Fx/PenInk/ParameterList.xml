@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="true" min="0" max="200">
+        <parameter_name>IDS_Vi_Param_Blackness_Name</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>1.0</range>
+        <offset>0.0</offset>
+        <value>0.0</value>
+    </effect_parameter>
+</paramererList>

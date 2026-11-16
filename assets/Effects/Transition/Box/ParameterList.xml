@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter>
+		<parameter_name>IDS_Tr_Param_Percentage_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>fProgress</glsl_name>
+		<glsl_type>uniform</glsl_type>
+		<range>1</range>
+		<offset>0</offset>
+		<value>0</value>
+		<progress_mode>LINEAR</progress_mode>
+		<progress_cycle>1</progress_cycle>
+	</effect_parameter>
+	<effect_parameter>
+		<parameter_name>IDS_Tr_Param_Type_Name</parameter_name>
+		<parameter_type>SELECTION</parameter_type>
+		<data_type>3</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<value>0</value>
+		<selection>In</selection>
+		<selection>Out</selection>
+	</effect_parameter>
+</paramererList>

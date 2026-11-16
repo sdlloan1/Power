@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>IDS_Vi_Param_Contrast_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>100</range>
+        <offset>0</offset>
+        <value>30</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>IDS_Vi_Param_CenterBrightness_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>100</range>
+        <offset>0</offset>
+        <value>50</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>IDS_Vi_Param_Brightness_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>100</range>
+        <offset>0</offset>
+        <value>0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="100">
+        <parameter_name>IDS_Vi_Param_Saturation_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>100</range>
+        <offset>0</offset>
+        <value>0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="false" min="0" max="100">
+        <parameter_name>IDS_Vi_Param_Radius_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>100</range>
+        <offset>0</offset>
+        <value>70</value>
+    </effect_parameter>
+</paramererList>

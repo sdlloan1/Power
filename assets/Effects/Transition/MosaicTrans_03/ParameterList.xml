@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter>
+        <parameter_name>IDS_Tr_Param_Percentage_Name</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>fProgress</glsl_name>
+        <glsl_type>uniform</glsl_type>
+        <range>1</range>
+        <offset>0</offset>
+        <value>0</value>
+        <progress_mode>LINEAR</progress_mode>
+        <progress_cycle>1</progress_cycle>
+    </effect_parameter>
+    <effect_parameter adjustable="false" min="0" max="8">
+        <parameter_name>Type</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>8</range>
+        <offset>0</offset>
+        <value>3</value>
+    </effect_parameter>
+    <effect_parameter adjustable="false" min="5" max="100">
+        <parameter_name>Width</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>95</range>
+        <offset>5</offset>
+        <value>50</value>
+    </effect_parameter>
+    <effect_parameter adjustable="false" min="5" max="100">
+        <parameter_name>Height</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>95</range>
+        <offset>5</offset>
+        <value>50</value>
+    </effect_parameter>
+    <effect_parameter adjustable="false" min="0" max="50">
+        <parameter_name>BlurRadius</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>50</range>
+        <offset>0</offset>
+        <value>20</value>
+    </effect_parameter>
+    <effect_parameter adjustable="false" min="0" max="100">
+        <parameter_name>CenterX</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>1.0</range>
+        <offset>0.0</offset>
+        <value>1.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="false" min="0" max="100">
+        <parameter_name>CenterY</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>1.0</range>
+        <offset>0.0</offset>
+        <value>1.0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="false" min="0" max="360">
+        <parameter_name>Direction</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>360</range>
+        <offset>0</offset>
+        <value>220</value>
+    </effect_parameter>
+    <effect_parameter adjustable="false" min="0" max="720">
+        <parameter_name>DirectionSweep</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>720</range>
+        <offset>-360</offset>
+        <value>0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="false" min="10" max="100">
+        <parameter_name>MosaicRange</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>0.9</range>
+        <offset>0.1</offset>
+        <value>1.0</value>
+    </effect_parameter>
+</paramererList>

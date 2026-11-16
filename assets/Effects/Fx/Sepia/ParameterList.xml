@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+	<effect_parameter adjustable="true" min="0" max="255">
+		<parameter_name>IDS_Vi_Param_Degree_Name</parameter_name>
+		<parameter_type>INT</parameter_type>
+		<data_type>1</data_type>
+		<glsl_name>u_Degree</glsl_name>
+		<glsl_type>uniform</glsl_type>
+		<range>255</range>
+		<offset>0</offset>
+		<value>255</value>
+		<progress_mode>NONE</progress_mode>
+		<progress_cycle>1</progress_cycle>
+	</effect_parameter>
+    <effect_parameter adjustable="true">
+        <parameter_name>IDS_Vi_Param_fColor_Name</parameter_name>
+        <parameter_type>COLOR</parameter_type>
+        <data_type>7</data_type>
+        <glsl_name>u_FgndColor</glsl_name>
+        <glsl_type>uniform</glsl_type>
+        <alpha_value>255</alpha_value>
+        <red_value>192</red_value>
+        <green_value>184</green_value>
+        <blue_value>91</blue_value>
+        <progress_mode>NONE</progress_mode>
+        <progress_cycle>1</progress_cycle>
+    </effect_parameter>
+</paramererList>

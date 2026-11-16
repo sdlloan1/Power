@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="true" min="0" max="200" >
+		<parameter_name>IDS_Vi_Param_Size_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>100</range>
+		<offset>0</offset>
+		<value>80</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="200" >
+		<parameter_name>IDS_Vi_Param_Density_Name</parameter_name>
+		<parameter_type>INT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>100</range>
+		<offset>0</offset>
+		<value>50</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="200" >
+		<parameter_name>IDS_Vi_Param_Speed_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>100</range>
+		<offset>0</offset>
+		<value>50</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="200" >
+		<parameter_name>IDS_Vi_Param_Brightness_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>100</range>
+		<offset>0</offset>
+		<value>80</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true">
+		<parameter_name>IDS_Vi_Param_Color1_Name</parameter_name>
+		<parameter_type>COLOR</parameter_type>
+		<data_type>7</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<alpha_value>255</alpha_value>
+		<red_value>255</red_value>
+		<green_value>123</green_value>
+		<blue_value>123</blue_value>
+		<progress_mode>NONE</progress_mode>
+		<progress_cycle>1</progress_cycle>
+	</effect_parameter>
+	<effect_parameter adjustable="true">
+		<parameter_name>IDS_Vi_Param_Color2_Name</parameter_name>
+		<parameter_type>COLOR</parameter_type>
+		<data_type>7</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<alpha_value>255</alpha_value>
+		<red_value>211</red_value>
+		<green_value>82</green_value>
+		<blue_value>255</blue_value>
+		<progress_mode>NONE</progress_mode>
+		<progress_cycle>1</progress_cycle>
+	</effect_parameter>
+	<effect_parameter adjustable="true">
+		<parameter_name>IDS_Vi_Param_FadeInOut_Name</parameter_name>
+		<parameter_type>BOOLEAN</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<value>true</value>
+	</effect_parameter>
+</paramererList>

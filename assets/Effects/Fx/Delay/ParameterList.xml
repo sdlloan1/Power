@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+	<effect_parameter adjustable="true" min="0" max="16">
+		<parameter_name>Regularity</parameter_name>
+		<parameter_type>INT</parameter_type>
+		<data_type>1</data_type>
+		<glsl_name>iRegularity</glsl_name>
+		<glsl_type>none</glsl_type>
+		<range>16</range>
+		<offset>0</offset>
+		<value>8</value>
+	</effect_parameter>
+</paramererList>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter>
+        <parameter_name>IDS_Vi_Param_Level_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>27</range>
+        <offset>3</offset>
+        <value>10</value>
+    </effect_parameter>
+</paramererList>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="true" min="0" max="10">
+        <parameter_name>IDS_Vi_Param_Hair_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>10</range>
+        <offset>0</offset>
+        <value>5</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true">
+        <parameter_name>IDS_Vi_Param_fColor_Name</parameter_name>
+        <parameter_type>COLOR</parameter_type>
+        <data_type>7</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <alpha_value>255</alpha_value>
+        <red_value>192</red_value>
+        <green_value>184</green_value>
+        <blue_value>91</blue_value>
+        <progress_mode>NONE</progress_mode>
+        <progress_cycle>1</progress_cycle>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="255">
+        <parameter_name>IDS_Vi_Param_Degree_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>255</range>
+        <offset>0</offset>
+        <value>64</value>
+    </effect_parameter>
+    <effect_parameter>
+        <parameter_name>IDS_Vi_Param_Scratch_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>16</range>
+        <offset>0</offset>
+        <value>2</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="255">
+        <parameter_name>IDS_Vi_Param_Grain_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>255</range>
+        <offset>0</offset>
+        <value>32</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="16">
+        <parameter_name>IDS_Vi_Param_Jitter_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>16</range>
+        <offset>0</offset>
+        <value>4</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true">
+        <parameter_name>IDS_Vi_Param_bColor_Name</parameter_name>
+        <parameter_type>COLOR</parameter_type>
+        <data_type>7</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <alpha_value>255</alpha_value>
+        <red_value>0</red_value>
+        <green_value>0</green_value>
+        <blue_value>0</blue_value>
+        <progress_mode>NONE</progress_mode>
+        <progress_cycle>1</progress_cycle>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="32">
+        <parameter_name>IDS_Vi_Param_Flicker_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>32</range>
+        <offset>0</offset>
+        <value>8</value>
+    </effect_parameter>
+</paramererList>

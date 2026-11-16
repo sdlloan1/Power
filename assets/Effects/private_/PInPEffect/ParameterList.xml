@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="false">
+        <parameter_name>BorderSize</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>10</range>
+        <offset>0</offset>
+        <value>3</value>
+    </effect_parameter>
+    <effect_parameter adjustable="false">
+        <parameter_name>BorderBlurRadius</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>20</range>
+        <offset>0</offset>
+        <value>0</value>
+    </effect_parameter>
+    <effect_parameter adjustable="false">
+        <parameter_name>BorderColor_Begin</parameter_name>
+        <parameter_type>COLOR</parameter_type>
+        <data_type>7</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <alpha_value>255</alpha_value>
+        <red_value>255</red_value>
+        <green_value>0</green_value>
+        <blue_value>0</blue_value>
+        <progress_mode>NONE</progress_mode>
+        <progress_cycle>1</progress_cycle>
+    </effect_parameter>
+    <effect_parameter adjustable="false">
+        <parameter_name>BorderColor_End</parameter_name>
+        <parameter_type>COLOR</parameter_type>
+        <data_type>7</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <alpha_value>255</alpha_value>
+        <red_value>0</red_value>
+        <green_value>0</green_value>
+        <blue_value>255</blue_value>
+        <progress_mode>NONE</progress_mode>
+        <progress_cycle>1</progress_cycle>
+    </effect_parameter>
+    <effect_parameter adjustable="false">
+        <parameter_name>BorderDirection</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>360</range>
+        <offset>0</offset>
+        <value>45</value>
+    </effect_parameter>
+    <effect_parameter adjustable="false">
+        <parameter_name>EnableBorder</parameter_name>
+        <parameter_type>BOOLEAN</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <value>false</value>
+    </effect_parameter>
+    <effect_parameter adjustable="false">
+        <parameter_name>ShadowDirection</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>360</range>
+        <offset>0</offset>
+        <value>45</value>
+    </effect_parameter>
+    <effect_parameter adjustable="false">
+        <parameter_name>ShadowDistance</parameter_name>
+        <parameter_type>FLOAT</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>100</range>
+        <offset>0</offset>
+        <value>20</value>
+    </effect_parameter>
+    <effect_parameter adjustable="false">
+        <parameter_name>ShadowBlurRadius</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>20</range>
+        <offset>0</offset>
+        <value>5</value>
+    </effect_parameter>
+    <effect_parameter adjustable="false">
+        <parameter_name>ShadowColor</parameter_name>
+        <parameter_type>COLOR</parameter_type>
+        <data_type>7</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <alpha_value>255</alpha_value>
+        <red_value>0</red_value>
+        <green_value>0</green_value>
+        <blue_value>0</blue_value>
+        <progress_mode>NONE</progress_mode>
+        <progress_cycle>1</progress_cycle>
+    </effect_parameter>
+    <effect_parameter adjustable="false">
+        <parameter_name>EnableShadow</parameter_name>
+        <parameter_type>BOOLEAN</parameter_type>
+        <data_type>8</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <value>false</value>
+    </effect_parameter>
+</paramererList>

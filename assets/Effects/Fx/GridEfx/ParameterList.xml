@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="true" min="2" max="320" link_parameter="IDS_Vi_Param_Height_Name" is_link="true">
+        <parameter_name>IDS_Vi_Param_Width_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>318</range>
+        <offset>2</offset>
+        <value>38</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="2" max="240" link_parameter="IDS_Vi_Param_Width_Name" is_link="true">
+        <parameter_name>IDS_Vi_Param_Height_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>238</range>
+        <offset>2</offset>
+        <value>22</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true" min="0" max="31">
+        <parameter_name>IDS_Vi_Param_LineWidth_Name</parameter_name>
+        <parameter_type>INT</parameter_type>
+        <data_type>5</data_type>
+        <glsl_name>NONE</glsl_name>
+        <glsl_type>NONE</glsl_type>
+        <range>31</range>
+        <offset>0</offset>
+        <value>1</value>
+    </effect_parameter>
+    <effect_parameter adjustable="true">
+        <parameter_name>IDS_Vi_Param_bColor_Name</parameter_name>
+        <parameter_type>COLOR</parameter_type>
+        <data_type>7</data_type>
+        <glsl_name>u_GridColor</glsl_name>
+        <glsl_type>uniform</glsl_type>
+        <alpha_value>255</alpha_value>
+        <red_value>0</red_value>
+        <green_value>0</green_value>
+        <blue_value>0</blue_value>
+        <progress_mode>NONE</progress_mode>
+        <progress_cycle>1</progress_cycle>
+    </effect_parameter>
+</paramererList>

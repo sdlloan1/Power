@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="true" min="10" max="100">
+		<parameter_name>IDS_Vi_Param_Frequency_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>0.9</range>
+		<offset>0.1</offset>
+		<value>0.5</value>
+		<progress_mode>LINEAR</progress_mode>
+		<progress_cycle>1</progress_cycle>
+	</effect_parameter>
+    <effect_parameter adjustable="true" min="10" max="100">
+		<parameter_name>IDS_Vi_Param_Strength_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>0.9</range>
+		<offset>0.1</offset>
+		<value>0.4</value>
+		<progress_mode>LINEAR</progress_mode>
+		<progress_cycle>1</progress_cycle>
+	</effect_parameter>
+</paramererList>

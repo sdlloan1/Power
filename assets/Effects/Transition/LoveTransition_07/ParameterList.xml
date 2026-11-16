@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter>
+		<parameter_name>IDS_Tr_Param_Percentage_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>fProgress</glsl_name>
+		<glsl_type>uniform</glsl_type>
+		<range>1</range>
+		<offset>0</offset>
+		<value>0</value>
+		<progress_mode>LINEAR</progress_mode>
+		<progress_cycle>1</progress_cycle>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="200" >
+		<parameter_name>Density</parameter_name>
+		<parameter_type>INT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>100</range>
+		<offset>0</offset>
+		<value>10</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="200" >
+		<parameter_name>Size</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>100</range>
+		<offset>0</offset>
+		<value>75</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="200" >
+		<parameter_name>ShakeRange</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>100</range>
+		<offset>0</offset>
+		<value>15</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="200" >
+		<parameter_name>MoveDistance</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>100</range>
+		<offset>0</offset>
+		<value>60</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="200" >
+		<parameter_name>RotateX</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>100</range>
+		<offset>0</offset>
+		<value>0</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="200" >
+		<parameter_name>RotateZ</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>100</range>
+		<offset>0</offset>
+		<value>20</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="200" >
+		<parameter_name>Rotate_Global</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>200</range>
+		<offset>-100.0</offset>
+		<value>0</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="200" >
+		<parameter_name>SceneDepth</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>1.0</range>
+		<offset>0</offset>
+		<value>0.725</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="360" >
+		<parameter_name>HueOffset</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>360</range>
+		<offset>0</offset>
+		<value>15</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="200" >
+		<parameter_name>Brightness</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>2.0</range>
+		<offset>0.0</offset>
+		<value>1.0</value>
+	</effect_parameter>
+</paramererList>

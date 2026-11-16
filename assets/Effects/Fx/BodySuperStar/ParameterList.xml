@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+	<effect_parameter adjustable="false" min="0" max="100" >
+		<parameter_name>IDS_Vi_Param_AnimationSpeed_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>190</range>
+		<offset>10</offset>
+		<value>100</value>
+	</effect_parameter>
+	<effect_parameter adjustable="false" min="0" max="100" >
+		<parameter_name>IDS_Vi_Param_CenterOffset_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>2.0</range>
+		<offset>-1.0</offset>
+		<value>0.0</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true">
+		<parameter_name>IDS_Vi_Param_Color_Name</parameter_name>
+		<parameter_type>COLOR</parameter_type>
+		<data_type>7</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<alpha_value>255</alpha_value>
+		<red_value>66</red_value>
+		<green_value>22</green_value>
+		<blue_value>241</blue_value>
+		<progress_mode>NONE</progress_mode>
+		<progress_cycle>1</progress_cycle>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="360" >
+		<parameter_name>IDS_Vi_Param_HueOffset_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>360</range>
+		<offset>0</offset>
+		<value>0</value>
+	</effect_parameter>
+	<effect_parameter adjustable="false" min="0" max="100" >
+		<parameter_name>IDS_Vi_Param_Opacity_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>100</range>
+		<offset>0</offset>
+		<value>100</value>
+	</effect_parameter>
+</paramererList>

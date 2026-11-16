@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paramererList>
+    <effect_parameter adjustable="true" min="0" max="200" >
+		<parameter_name>IDS_Vi_Param_Size_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>100</range>
+		<offset>0</offset>
+		<value>22</value>
+	</effect_parameter>
+	<effect_parameter adjustable="false" min="0" max="200" >
+		<parameter_name>IDS_Vi_Param_Density_Name</parameter_name>
+		<parameter_type>INT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>100</range>
+		<offset>0</offset>
+		<value>50</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true" min="0" max="200" >
+		<parameter_name>IDS_Vi_Param_Brightness_Name</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>100</range>
+		<offset>0</offset>
+		<value>75</value>
+	</effect_parameter>
+	<effect_parameter adjustable="true">
+		<parameter_name>IDS_Vi_Param_LightColor_Name</parameter_name>
+		<parameter_type>COLOR</parameter_type>
+		<data_type>7</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<alpha_value>255</alpha_value>
+		<red_value>0</red_value>
+		<green_value>255</green_value>
+		<blue_value>255</blue_value>
+		<progress_mode>NONE</progress_mode>
+		<progress_cycle>1</progress_cycle>
+	</effect_parameter>
+	<effect_parameter adjustable="true">
+		<parameter_name>IDS_Vi_Param_FadeInOut_Name</parameter_name>
+		<parameter_type>BOOLEAN</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<value>true</value>
+	</effect_parameter>
+	<!-- Parameter of Reflection -->
+	<effect_parameter adjustable="true">
+		<parameter_name>Reflection</parameter_name>
+		<parameter_type>BOOLEAN</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<value>true</value>
+	</effect_parameter>
+	<effect_parameter adjustable="false" min="0" max="200" >
+		<parameter_name>WaveLen</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>2</range>
+		<offset>0.01</offset>
+		<value>0.6</value>
+	</effect_parameter>
+	<effect_parameter adjustable="false" min="0" max="200" >
+		<parameter_name>WaveAmp</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>0.1</range>
+		<offset>0</offset>
+		<value>0.035</value>
+	</effect_parameter>
+	<effect_parameter adjustable="false" min="0" max="200" >
+		<parameter_name>WaveSpeed</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>10</range>
+		<offset>0</offset>
+		<value>10</value>
+	</effect_parameter>
+	<effect_parameter adjustable="false" min="0" max="200" >
+		<parameter_name>H_Blur</parameter_name>
+		<parameter_type>INT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>40</range>
+		<offset>0</offset>
+		<value>14</value>
+	</effect_parameter>
+	<effect_parameter adjustable="false" min="0" max="200" >
+		<parameter_name>V_Blur</parameter_name>
+		<parameter_type>INT</parameter_type>
+		<data_type>5</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>40</range>
+		<offset>0</offset>
+		<value>9</value>
+	</effect_parameter>
+	<effect_parameter adjustable="false" min="0" max="200" >
+		<parameter_name>Shear</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>0.6</range>
+		<offset>-0.3</offset>
+		<value>-0.054</value>
+	</effect_parameter>
+	<effect_parameter adjustable="false" min="0" max="200" >
+		<parameter_name>R_Height</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>1</range>
+		<offset>0</offset>
+		<value>0.535</value>
+	</effect_parameter>
+	<effect_parameter adjustable="false" min="0" max="200" >
+		<parameter_name>R_Bri</parameter_name>
+		<parameter_type>FLOAT</parameter_type>
+		<data_type>8</data_type>
+		<glsl_name>NONE</glsl_name>
+		<glsl_type>NONE</glsl_type>
+		<range>1.5</range>
+		<offset>0</offset>
+		<value>0.73</value>
+	</effect_parameter>
+</paramererList>
