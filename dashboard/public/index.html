@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Media Library</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="wrap">
+        <h1>Media Library</h1>
+        <p class="subtitle">Browse and download the video, music and image files stored in this repository.</p>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="notice">
+        <strong>What this shows.</strong>
+        These are the media files bundled in the PowerDirector 13.2.0 archive in this repo — demo clips,
+        background music, effect thumbnails and colour-preset previews. The Shutterstock and Pixabay
+        catalogues are not included: the app streams them from the vendors' servers at runtime.
+      </section>
+
+      <div class="controls">
+        <nav class="tabs" id="tabs" role="tablist"></nav>
+        <input
+          id="search"
+          class="search"
+          type="search"
+          placeholder="Filter by name or folder…"
+          autocomplete="off"
+          aria-label="Filter files"
+        />
+      </div>
+
+      <p class="result-line" id="result-line"></p>
+      <div class="grid" id="grid"></div>
+      <div class="empty" id="empty" hidden>No files match that filter.</div>
+      <div class="more-row">
+        <button id="more" class="more" type="button" hidden>Load more</button>
+      </div>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
